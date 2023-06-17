@@ -74,21 +74,21 @@ function Home() {
             type="monotone"
             dataKey="firstSensor"
             name="Sensor 1"
-            stroke="#8884d8"
+            stroke="#FF0000"
             isAnimationActive={false}
           />
           <Line
             type="monotone"
             name="Sensor 2"
             dataKey="secondSensor"
-            stroke="#82ca9d"
+            stroke="#00FF00"
             isAnimationActive={false}
           />
           <Line
             type="monotone"
             name="Sensor 3"
             dataKey="thirdSensor"
-            stroke="#555555"
+            stroke="#0000FF"
             isAnimationActive={false}
           />
         </LineChart>
